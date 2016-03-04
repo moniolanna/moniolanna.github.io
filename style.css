@@ -1,7 +1,108 @@
-.responsive-scale{
-	width:100%;
-	padding-bottom: 66.666666666667%; /* 960px/1440px */
-	background-image:url(3.jpg);
-	background-size:cover;
-	background-position:center; /* IE fix */
+@font-face {
+	font-family: Blogger;
+	src: url("fonts/BLOGGER_SANS.OTF") format("opentype");
 }
+@font-face {
+	font-family: Blogger;
+	font-weight: bold;
+	src: url("fonts/BLOGGER_SANS-BOLD.OTF") format("opentype");
+}
+
+
+
+
+body{
+	font-family: Blogger;
+	background: white;
+	color: white;
+	height:100%;
+}
+#view{
+	position: fixed;
+	top: 0px;
+	bottom:0px;
+	left: 0px;
+	right: 0px;
+	background: url('bg.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+#menuview{
+	position: fixed;
+	top: 0px;
+	bottom:0px;
+	left: 0px;
+	right: 0px;
+}
+#logo{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 30vw;
+	height: 30vw;
+	background: url('logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#logo2{
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	width: 20vw;
+	height: 20vw;
+	background: url('logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#header{
+	position: fixed;
+	height: 20vh;
+	top: 0px;
+	left:0px;
+	right:0px;
+}
+#menu{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 20vw;
+	height: 20vw;
+	background: url('menu.png');
+	background-size: contain;
+}
+#menu:hover{
+	background: url('menu_cz.png');
+	background-size: contain;
+}
+#menu2{
+	position: fixed;
+	top: 15px;
+	right: 15px;
+	width: 15vw;
+	height: 15vw;
+	background: url('menu.png');
+	background-size: contain;
+}
+#menu2:hover{
+	background: url('menu_cz.png');
+	background-size: contain;
+}
+ul#menulist{
+	list-style:none;
+	margin: 0px;
+    padding: 0px;
+    }
+ul#menulist li{
+	text-align: center;
+	height: 25vh;
+	width: 100%;	
+}
+ul#menulist li a{
+	
+	font-family: Blogger;
+	font-weight: bold;
+	font-size:6vh;
+	color: white;
+	text-decoration: none;
+	text-shadow: 0px 0px 60px rgba(0, 0, 0, 1);
+	}
